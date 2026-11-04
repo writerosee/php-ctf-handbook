@@ -1,0 +1,10 @@
+# 构建时额外生成的旧文件名别名（README 只用主文件名）
+PHP-Offline-Pro.html
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
