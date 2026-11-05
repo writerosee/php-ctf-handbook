@@ -2,13 +2,13 @@
 
 CTF Web 线下赛用的 PHP 速查手册，断网可用。
 
-内容分三块：PHP 官方中文手册的全量索引、196 条 CTF 技巧（附 990 段 payload）、一个在本地跑的工具箱。赛前还能联网拉一次 CVE。
+内容分三部分：PHP 官方中文手册的全量索引、196 条 CTF 技巧（附 990 段 payload）、一个在本地跑的工具箱。赛前可以联网拉 CVE。
 
 ![主界面](docs/01-list.png)
 
 ## 快速开始
 
-下载 `php-ctf-handbook.html`，双击。Windows、macOS、Linux 都一样，浏览器打开即可。
+下载 `php-ctf-handbook.html`，双击即用1。
 
 **Important**：Windows Defender 会把这个文件当可疑程序删掉——13 MB 的单页 HTML 里塞了大量 PHP 代码，容易触发启发式扫描。
 
@@ -43,9 +43,12 @@ docs/                   截图
 
 接了 OSV。赛前拉一遍最近的漏洞，本地打法库会给它补上中文的判断方法和利用思路。
 
+![CVE 更新](docs/05-cve.png)
+
 ## 本地修改
 
 收藏、笔记、最近查看都有。条目也能在页面里直接改，改动存在浏览器本地；导出 JSON 可以备份，换机器时再导入。
+
 
 ## 说明
 
