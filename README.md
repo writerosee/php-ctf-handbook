@@ -1,4 +1,4 @@
-# php about ctf
+# PHP CTF Handbook
 
 离线 PHP 速查手册，给 CTF Web 线下赛用。一个 13 MB 的 HTML 文件，双击就能用，不需要装 PHP，也不需要联网。
 
@@ -8,16 +8,16 @@
 
 ## 快速开始
 
-下载 `PHP about ctf.html`，双击。Windows、macOS、Linux 都一样，浏览器打开即可。
+下载 `php-ctf-handbook.html`，双击。Windows、macOS、Linux 都一样，浏览器打开即可。
 
 **Important**：Windows Defender 会把这个文件当可疑程序删掉，13 MB 的单页 HTML 容易触发启发式扫描。文件消失不是下载坏了，加个排除项，或者重新下一次。
 
 ## 仓库内容
 
 ```
-PHP about ctf.html   成品，双击打开
-README.md            这份说明
-docs/                截图
+php-ctf-handbook.html   成品，双击打开
+README.md               这份说明
+docs/                   截图
 ```
 
 构建脚本和条目源文件没放进来。手册文本索引自 PHP 官方中文手册，CTF 条目手工整理，最后合并成一个 HTML。
